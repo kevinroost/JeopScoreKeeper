@@ -1,0 +1,27 @@
+.card {
+  border-radius: 8px;
+  /* border: 1px solid transparent; */
+  padding: 1.5em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: default;
+  margin: .5em;
+}
+
+.button-behavior {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  transition: border-color 0.25s;
+}
+
+.button-behavior:hover {
+  cursor: pointer;
+  border-color: #646cff;
+  transition: border-color 0.25s;
+}
+
+#focus {
+  background-color: #646cff;
+}
