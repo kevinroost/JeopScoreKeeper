@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import PointsCard from './components/cards/PointsCard'
 import PlayerCard from './components/cards/PlayerCard'
+import InputCard from './components/cards/InputCard'
 import './App.css'
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     {name: `Caitlyn`, score: 0}, 
   ]
   const [players, setPlayers] = useState(myPlayers)
+  console.log(currPoints);
   
   return (
     <div className='col'>
@@ -52,6 +54,10 @@ function App() {
             />
           <PointsCard 
             value={factor*5}
+            currPoints={currPoints}
+            setCurrPoints={setCurrPoints}
+            />
+          <InputCard
             currPoints={currPoints}
             setCurrPoints={setCurrPoints}
             />

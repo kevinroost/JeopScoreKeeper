@@ -10,7 +10,7 @@ const PlayerCard = ({player, currPoints, i, setPlayers, players}) => {
   }
   
   const addPoints = () => {
-    player.score += currPoints
+    player.score += parseInt(currPoints)
     setUpdatedScore(player.score)
   }
   
