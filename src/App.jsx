@@ -7,7 +7,7 @@ import InputCard from './components/cards/InputCard'
 import './App.css'
 
 function App() {
-  const [factor, setFactor] = useState(100)
+  const [factor, setFactor] = useState(200)
   const [currPoints, setCurrPoints] = useState(0)
   const myPlayers = [
     {name: `Kevin`, score: 0}, 
