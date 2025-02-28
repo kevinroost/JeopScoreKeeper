@@ -20,13 +20,13 @@ function App() {
   return (
     <div className='col'>
       <div className='row'>
-        <div className='button-behavior card' onClick={() => setFactor(100)}>
+        <div className='button-behavior card' onClick={() => setFactor(200)}>
           <p>Single Jeop</p>
         </div>
-        <div className='button-behavior card' onClick={() => setFactor(200)}>
+        <div className='button-behavior card' onClick={() => setFactor(400)}>
           <p>Double Jeop</p>
         </div>
-        <div className='button-behavior card' onClick={() => setFactor(300)}>
+        <div className='button-behavior card' onClick={() => setFactor(600)}>
           <p>Triple Jeop</p>
         </div>
       </div>
