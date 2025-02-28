@@ -5,7 +5,7 @@ const PlayerCard = ({player, currPoints, i, setPlayers, players}) => {
   const [updatedScore, setUpdatedScore] = useState(player.score)
   
   const subtractPoints = () => {
-    player.score -= currPoints
+    player.score -= parseInt(currPoints)
     setUpdatedScore(player.score)
   }
   
